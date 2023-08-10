@@ -1,15 +1,15 @@
 set(BOX2D_SOURCE_FILES
 	collision/b2_broad_phase.cpp
-	collision/b2_chain_shape.cpp
-	collision/b2_circle_shape.cpp
+	collision/shapes/b2_chain_shape.cpp
+	collision/shapes/b2_circle_shape.cpp
 	collision/b2_collide_circle.cpp
 	collision/b2_collide_edge.cpp
 	collision/b2_collide_polygon.cpp
 	collision/b2_collision.cpp
 	collision/b2_distance.cpp
 	collision/b2_dynamic_tree.cpp
-	collision/b2_edge_shape.cpp
-	collision/b2_polygon_shape.cpp
+	collision/shapes/b2_edge_shape.cpp
+	collision/shapes/b2_polygon_shape.cpp
 	collision/b2_time_of_impact.cpp
 	common/b2_block_allocator.cpp
 	common/b2_draw.cpp
@@ -52,7 +52,13 @@ set(BOX2D_SOURCE_FILES
 	dynamics/b2_wheel_joint.cpp
 	dynamics/b2_world.cpp
 	dynamics/b2_world_callbacks.cpp
-	rope/b2_rope.cpp)
+	rope/b2_rope.cpp
+	particle/b2_particle.cpp
+	particle/b2_particle_assembly.cpp
+	particle/b2_particle_group.cpp
+	particle/b2_particle_system.cpp
+	particle/b2_stack_queue.cpp
+	particle/b2_voronoi_diagram.cpp)
 
 set(BOX2D_HEADER_FILES
 	../include/box2d/b2_api.h
@@ -94,7 +100,13 @@ set(BOX2D_HEADER_FILES
 	../include/box2d/b2_wheel_joint.h
 	../include/box2d/b2_world.h
 	../include/box2d/b2_world_callbacks.h
-	../include/box2d/box2d.h)
+	../include/box2d/box2d.h
+	../include/box2d/b2_particle.h
+	../include/box2d/b2_particle_group.h
+	../include/box2d/b2_particle_system.h
+	../include/box2d/b2_particle_assembly.h
+	../include/box2d/b2_stack_queue.h
+	../include/box2d/b2_voronoi_diagram.h)
 
 add_library(box2d ${BOX2D_SOURCE_FILES} ${BOX2D_HEADER_FILES})
 target_include_directories(box2d

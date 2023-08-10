@@ -69,6 +69,29 @@ set (TESTBED_SOURCE_FILES
 	tests/web.cpp
 	tests/wheel_joint.cpp
 	tests/wrecking_ball.cpp
+	tests/anti_pointy.cpp
+	tests/corner_case.cpp
+	tests/dam_break.cpp
+	tests/drawing_particles.cpp
+	tests/elastic_particles.cpp
+	tests/faucet.cpp
+	tests/fracker.cpp
+	tests/impulse.cpp
+	tests/liquid_timer.cpp
+	tests/maxwell.cpp
+	tests/multiple_particle_system.cpp
+	tests/one_sided_platform.cpp
+	tests/particle_collision_filter.cpp
+	tests/particles_surface_tension.cpp
+	tests/particles.cpp
+	tests/pointy.cpp
+	tests/ramp.cpp
+	tests/rigid_particle.cpp
+	tests/sandbox.cpp
+	tests/soup_stirrer.cpp
+	tests/sparky.cpp
+	tests/soup.cpp
+	tests/wave_machine.cpp
 )
 
 add_executable(testbed ${TESTBED_SOURCE_FILES})
