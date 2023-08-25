@@ -15,22 +15,52 @@
 * misrepresented as being the original software.
 * 3. This notice may not be removed or altered from any source distribution.
 */
-#include "particle_assembly.h"
-#include "particle_system.h"
+#include "stat.h"
 
-extern "C" {
+#include <algorithm>
+#include <cfloat>
 
-// Helper function, called from assembly routine.
-void GrowParticleContactBuffer(
-	b2GrowableBuffer<b2ParticleContact>& contacts)
+b2Stat::b2Stat()
 {
-	// Set contacts.count = capacity instead of count because there are
-	// items past the end of the array waiting to be post-processed.
-	// We must maintain the entire contacts array.
-	// TODO: It would be better to have the items awaiting post-processing
-	// in their own array on the stack.
-	contacts.SetCount(contacts.GetCapacity());
-	contacts.Grow();
+	Clear();
 }
 
-} // extern "C"
+void b2Stat::Record( float t )
+{
+	m_total += t;
+	m_min = std::min(m_min,t);
+	m_max = std::max(m_max,t);
+	m_count++;
+}
+
+int b2Stat::GetCount() const
+{
+	return m_count;
+}
+
+float b2Stat::GetMean() const
+{
+	if (m_count == 0)
+	{
+		return 0.0f;
+	}
+	return (float)(m_total / m_count);
+}
+
+float b2Stat::GetMin() const
+{
+	return m_min;
+}
+
+float b2Stat::GetMax() const
+{
+	return m_max;
+}
+
+void b2Stat::Clear()
+{
+	m_count = 0;
+	m_total = 0;
+	m_min = FLT_MAX;
+	m_max = -FLT_MAX;
+}

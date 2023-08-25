@@ -1,0 +1,1016 @@
+[
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/broad_phase.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/broad_phase.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/broad_phase.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/broad_phase.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/collide_circle.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/collide_circle.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/collide_circle.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/collide_circle.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/collide_edge.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/collide_edge.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/collide_edge.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/collide_edge.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/collide_polygon.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/collide_polygon.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/collide_polygon.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/collide_polygon.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/collision.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/collision.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/collision.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/collision.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/distance.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/distance.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/distance.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/distance.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/dynamic_tree.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/dynamic_tree.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/dynamic_tree.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/dynamic_tree.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/shapes/chain_shape.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/shapes/chain_shape.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/shapes/chain_shape.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/shapes/chain_shape.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/shapes/circle_shape.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/shapes/circle_shape.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/shapes/circle_shape.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/shapes/circle_shape.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/shapes/edge_shape.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/shapes/edge_shape.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/shapes/edge_shape.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/shapes/edge_shape.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/shapes/polygon_shape.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/shapes/polygon_shape.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/shapes/polygon_shape.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/shapes/polygon_shape.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/collision/time_of_impact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/collision/time_of_impact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/collision/time_of_impact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/collision/time_of_impact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/block_allocator.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/block_allocator.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/block_allocator.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/block_allocator.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/draw.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/draw.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/draw.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/draw.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/free_list.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/free_list.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/free_list.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/free_list.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/math.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/math.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/math.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/math.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/settings.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/settings.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/settings.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/settings.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/stack_allocator.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/stack_allocator.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/stack_allocator.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/stack_allocator.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/stat.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/stat.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/stat.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/stat.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/timer.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/timer.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/timer.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/timer.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/common/tracked_block.cpp.o -c /home/tayler/Programming/box2d/src/box2d/common/tracked_block.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/common/tracked_block.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/common/tracked_block.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/body.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/body.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/body.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/body.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/chain_circle_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/chain_circle_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/chain_circle_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/chain_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/chain_polygon_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/chain_polygon_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/chain_polygon_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/chain_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/circle_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/circle_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/circle_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/circle_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/edge_circle_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/edge_circle_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/edge_circle_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/edge_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/edge_polygon_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/edge_polygon_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/edge_polygon_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/edge_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/polygon_circle_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/polygon_circle_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/polygon_circle_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/polygon_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact/polygon_contact.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact/polygon_contact.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact/polygon_contact.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact/polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact_manager.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact_manager.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact_manager.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact_manager.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/contact_solver.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/contact_solver.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/contact_solver.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/contact_solver.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/fixture.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/fixture.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/fixture.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/fixture.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/island.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/island.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/island.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/island.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/distance_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/distance_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/distance_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/distance_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/friction_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/friction_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/friction_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/friction_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/gear_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/gear_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/gear_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/gear_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/motor_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/motor_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/motor_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/motor_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/mouse_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/mouse_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/mouse_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/mouse_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/prismatic_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/prismatic_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/prismatic_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/prismatic_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/pulley_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/pulley_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/pulley_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/pulley_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/revolute_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/revolute_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/revolute_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/revolute_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/weld_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/weld_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/weld_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/weld_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/joint/wheel_joint.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/joint/wheel_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/joint/wheel_joint.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/joint/wheel_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/world.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/world.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/world.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/world.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/dynamics/world_callbacks.cpp.o -c /home/tayler/Programming/box2d/src/box2d/dynamics/world_callbacks.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/dynamics/world_callbacks.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/dynamics/world_callbacks.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/particle/particle.cpp.o -c /home/tayler/Programming/box2d/src/box2d/particle/particle.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/particle/particle.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/particle/particle.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/particle/particle_assembly.cpp.o -c /home/tayler/Programming/box2d/src/box2d/particle/particle_assembly.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/particle/particle_assembly.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/particle/particle_assembly.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/particle/particle_group.cpp.o -c /home/tayler/Programming/box2d/src/box2d/particle/particle_group.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/particle/particle_group.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/particle/particle_group.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/particle/particle_system.cpp.o -c /home/tayler/Programming/box2d/src/box2d/particle/particle_system.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/particle/particle_system.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/particle/particle_system.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/particle/voronoi_diagram.cpp.o -c /home/tayler/Programming/box2d/src/box2d/particle/voronoi_diagram.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/particle/voronoi_diagram.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/particle/voronoi_diagram.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o src/CMakeFiles/box2d.dir/box2d/rope/rope.cpp.o -c /home/tayler/Programming/box2d/src/box2d/rope/rope.cpp",
+  "file": "/home/tayler/Programming/box2d/src/box2d/rope/rope.cpp",
+  "output": "src/CMakeFiles/box2d.dir/box2d/rope/rope.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o unit-test/CMakeFiles/unit_test.dir/hello_world.cpp.o -c /home/tayler/Programming/box2d/unit-test/hello_world.cpp",
+  "file": "/home/tayler/Programming/box2d/unit-test/hello_world.cpp",
+  "output": "unit-test/CMakeFiles/unit_test.dir/hello_world.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o unit-test/CMakeFiles/unit_test.dir/collision_test.cpp.o -c /home/tayler/Programming/box2d/unit-test/collision_test.cpp",
+  "file": "/home/tayler/Programming/box2d/unit-test/collision_test.cpp",
+  "output": "unit-test/CMakeFiles/unit_test.dir/collision_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o unit-test/CMakeFiles/unit_test.dir/joint_test.cpp.o -c /home/tayler/Programming/box2d/unit-test/joint_test.cpp",
+  "file": "/home/tayler/Programming/box2d/unit-test/joint_test.cpp",
+  "output": "unit-test/CMakeFiles/unit_test.dir/joint_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o unit-test/CMakeFiles/unit_test.dir/math_test.cpp.o -c /home/tayler/Programming/box2d/unit-test/math_test.cpp",
+  "file": "/home/tayler/Programming/box2d/unit-test/math_test.cpp",
+  "output": "unit-test/CMakeFiles/unit_test.dir/math_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o unit-test/CMakeFiles/unit_test.dir/world_test.cpp.o -c /home/tayler/Programming/box2d/unit-test/world_test.cpp",
+  "file": "/home/tayler/Programming/box2d/unit-test/world_test.cpp",
+  "output": "unit-test/CMakeFiles/unit_test.dir/world_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glad/include -g -o extern/glad/CMakeFiles/glad.dir/src/gl.c.o -c /home/tayler/Programming/box2d/extern/glad/src/gl.c",
+  "file": "/home/tayler/Programming/box2d/extern/glad/src/gl.c",
+  "output": "extern/glad/CMakeFiles/glad.dir/src/gl.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/context.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/context.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/context.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/context.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/init.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/init.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/init.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/init.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/input.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/input.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/input.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/input.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/monitor.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/monitor.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/vulkan.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/vulkan.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/window.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/window.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/window.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/window.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/x11_init.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/x11_init.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/x11_init.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/x11_init.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/x11_monitor.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/x11_monitor.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/x11_monitor.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/x11_monitor.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/x11_window.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/x11_window.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/x11_window.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/x11_window.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/xkb_unicode.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/xkb_unicode.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/xkb_unicode.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/posix_time.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/posix_time.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/posix_time.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/posix_time.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/posix_thread.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/posix_thread.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/glx_context.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/glx_context.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/glx_context.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/glx_context.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/egl_context.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/egl_context.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/osmesa_context.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/osmesa_context.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang -I/home/tayler/Programming/box2d/extern/glfw/include -g -o extern/glfw/CMakeFiles/glfw.dir/src/linux_joystick.c.o -c /home/tayler/Programming/box2d/extern/glfw/src/linux_joystick.c",
+  "file": "/home/tayler/Programming/box2d/extern/glfw/src/linux_joystick.c",
+  "output": "extern/glfw/CMakeFiles/glfw.dir/src/linux_joystick.c.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/extern/imgui/.. -g -fvisibility=hidden -fvisibility-inlines-hidden -o extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o -c /home/tayler/Programming/box2d/extern/imgui/imgui.cpp",
+  "file": "/home/tayler/Programming/box2d/extern/imgui/imgui.cpp",
+  "output": "extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/extern/imgui/.. -g -fvisibility=hidden -fvisibility-inlines-hidden -o extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/tayler/Programming/box2d/extern/imgui/imgui_demo.cpp",
+  "file": "/home/tayler/Programming/box2d/extern/imgui/imgui_demo.cpp",
+  "output": "extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/extern/imgui/.. -g -fvisibility=hidden -fvisibility-inlines-hidden -o extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/tayler/Programming/box2d/extern/imgui/imgui_draw.cpp",
+  "file": "/home/tayler/Programming/box2d/extern/imgui/imgui_draw.cpp",
+  "output": "extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/extern/imgui/.. -g -fvisibility=hidden -fvisibility-inlines-hidden -o extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/tayler/Programming/box2d/extern/imgui/imgui_widgets.cpp",
+  "file": "/home/tayler/Programming/box2d/extern/imgui/imgui_widgets.cpp",
+  "output": "extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/extern/sajson/.. -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o extern/sajson/CMakeFiles/sajson.dir/sajson.cpp.o -c /home/tayler/Programming/box2d/extern/sajson/sajson.cpp",
+  "file": "/home/tayler/Programming/box2d/extern/sajson/sajson.cpp",
+  "output": "extern/sajson/CMakeFiles/sajson.dir/sajson.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/draw.cpp.o -c /home/tayler/Programming/box2d/testbed/draw.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/draw.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/draw.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/imgui_impl_glfw.cpp.o -c /home/tayler/Programming/box2d/testbed/imgui_impl_glfw.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/imgui_impl_glfw.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/imgui_impl_opengl3.cpp.o -c /home/tayler/Programming/box2d/testbed/imgui_impl_opengl3.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/imgui_impl_opengl3.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/main.cpp.o -c /home/tayler/Programming/box2d/testbed/main.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/main.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/main.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/settings.cpp.o -c /home/tayler/Programming/box2d/testbed/settings.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/settings.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/settings.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/test.cpp.o -c /home/tayler/Programming/box2d/testbed/test.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/test.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/particle_parameter.cpp.o -c /home/tayler/Programming/box2d/testbed/particle_parameter.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/particle_parameter.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/particle_parameter.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/benchmark_boxes.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/benchmark_boxes.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/benchmark_boxes.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/benchmark_boxes.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/add_pair.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/add_pair.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/add_pair.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/add_pair.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/anti_pointy.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/anti_pointy.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/anti_pointy.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/anti_pointy.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/apply_force.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/apply_force.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/body_types.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/body_types.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/box_stack.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/box_stack.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/breakable.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/breakable.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/bridge.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/bridge.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/bullet_test.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/bullet_test.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/cantilever.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/cantilever.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/car.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/car.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/car.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/car.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/chain.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/chain.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/chain_problem.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/chain_problem.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/character_collision.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/character_collision.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/circle_stack.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/circle_stack.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/collision_filtering.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/collision_filtering.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/collision_processing.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/collision_processing.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/compound_shapes.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/compound_shapes.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/confined.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/confined.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/continuous_test.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/continuous_test.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/convex_hull.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/convex_hull.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/conveyor_belt.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/conveyor_belt.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/corner_case.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/corner_case.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/corner_case.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/corner_case.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/dam_break.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/dam_break.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/dam_break.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/dam_break.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/distance_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/distance_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/distance_test.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/distance_test.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/dominos.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/dominos.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/drawing_particles.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/drawing_particles.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/drawing_particles.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/drawing_particles.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/dump_loader.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/dump_loader.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/dynamic_tree.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/dynamic_tree.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/edge_shapes.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/edge_shapes.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/edge_test.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/edge_test.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/elastic_particles.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/elastic_particles.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/elastic_particles.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/elastic_particles.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/faucet.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/faucet.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/faucet.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/faucet.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/fracker.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/fracker.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/fracker.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/fracker.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/friction.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/friction.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/gear_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/gear_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/heavy1.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/heavy1.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/heavy2.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/heavy2.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/impulse.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/impulse.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/impulse.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/impulse.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/liquid_timer.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/liquid_timer.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/liquid_timer.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/liquid_timer.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/maxwell.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/maxwell.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/maxwell.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/maxwell.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/mobile_balanced.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/mobile_balanced.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/mobile_unbalanced.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/mobile_unbalanced.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/multiple_particle_system.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/multiple_particle_system.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/multiple_particle_system.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/multiple_particle_system.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/one_sided_platform.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/one_sided_platform.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/one_sided_platform.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/one_sided_platform.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/particle_collision_filter.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/particle_collision_filter.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/particle_collision_filter.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/particle_collision_filter.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/particles_surface_tension.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/particles_surface_tension.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/particles_surface_tension.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/particles_surface_tension.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/particles.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/particles.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/particles.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/particles.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/motor_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/motor_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/pinball.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/pinball.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/platformer.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/platformer.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/pointy.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/pointy.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/pointy.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/pointy.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/polygon_collision.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/polygon_collision.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/polygon_shapes.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/polygon_shapes.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/prismatic_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/prismatic_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/pulley_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/pulley_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/pyramid.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/pyramid.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/ramp.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/ramp.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/ramp.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/ramp.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/ray_cast.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/ray_cast.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/restitution.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/restitution.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/revolute_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/revolute_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/rigid_particle.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/rigid_particle.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/rigid_particle.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/rigid_particle.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/rope.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/rope.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/sandbox.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/sandbox.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/sandbox.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/sandbox.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/sensor.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/sensor.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/shape_cast.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/shape_cast.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/shape_editing.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/shape_editing.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/skier.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/skier.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/slider_crank_1.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/slider_crank_1.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/slider_crank_2.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/slider_crank_2.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/soup_stirrer.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/soup_stirrer.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/soup_stirrer.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/soup_stirrer.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/soup.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/soup.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/soup.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/soup.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/sparky.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/sparky.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/sparky.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/sparky.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/theo_jansen.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/theo_jansen.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/tiles.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/tiles.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/time_of_impact.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/time_of_impact.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/tumbler.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/tumbler.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/wave_machine.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/wave_machine.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/wave_machine.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/wave_machine.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/web.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/web.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/web.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/web.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/wheel_joint.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/wheel_joint.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o"
+},
+{
+  "directory": "/home/tayler/Programming/box2d/build",
+  "command": "/usr/bin/clang++ -I/home/tayler/Programming/box2d/testbed -I/home/tayler/Programming/box2d/src -I/home/tayler/Programming/box2d/extern/glfw/include -I/home/tayler/Programming/box2d/extern/imgui/.. -I/home/tayler/Programming/box2d/extern/sajson/.. -I/home/tayler/Programming/box2d/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o testbed/CMakeFiles/testbed.dir/tests/wrecking_ball.cpp.o -c /home/tayler/Programming/box2d/testbed/tests/wrecking_ball.cpp",
+  "file": "/home/tayler/Programming/box2d/testbed/tests/wrecking_ball.cpp",
+  "output": "testbed/CMakeFiles/testbed.dir/tests/wrecking_ball.cpp.o"
+}
+]

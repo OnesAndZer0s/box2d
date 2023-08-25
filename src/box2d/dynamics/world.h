@@ -25,10 +25,11 @@
 
 #include "box2d/api.h"
 #include "box2d/common/block_allocator.h"
-#include "contact_manager.h"
 #include "box2d/common/math.h"
 #include "box2d/common/stack_allocator.h"
 #include "box2d/common/time_step.h"
+#include "box2d/particle/particle_system.h"
+#include "contact_manager.h"
 #include "world_callbacks.h"
 
 struct b2AABB;
@@ -39,310 +40,345 @@ class b2Body;
 class b2Draw;
 class b2Fixture;
 class b2Joint;
+class b2ParticleGroup;
 
 /// The world class manages all physics entities, dynamic simulation,
 /// and asynchronous queries. The world also contains efficient memory
 /// management facilities.
-class B2_API b2World
-{
-public:
-	/// Construct a world object.
-	/// @param gravity the world gravity vector.
-	b2World(const b2Vec2& gravity);
+class B2_API b2World {
+  public:
+    /// Construct a world object.
+    /// @param gravity the world gravity vector.
+    b2World( const b2Vec2& gravity );
 
-	/// Destruct the world. All physics entities are destroyed and all heap memory is released.
-	~b2World();
+    /// Destruct the world. All physics entities are destroyed and all heap memory is released.
+    ~b2World();
 
-	/// Register a destruction listener. The listener is owned by you and must
-	/// remain in scope.
-	void SetDestructionListener(b2DestructionListener* listener);
+    /// Register a destruction listener. The listener is owned by you and must
+    /// remain in scope.
+    void SetDestructionListener( b2DestructionListener* listener );
 
-	/// Register a contact filter to provide specific control over collision.
-	/// Otherwise the default filter is used (b2_defaultFilter). The listener is
-	/// owned by you and must remain in scope.
-	void SetContactFilter(b2ContactFilter* filter);
+    /// Register a contact filter to provide specific control over collision.
+    /// Otherwise the default filter is used (b2_defaultFilter). The listener is
+    /// owned by you and must remain in scope.
+    void SetContactFilter( b2ContactFilter* filter );
 
-	/// Register a contact event listener. The listener is owned by you and must
-	/// remain in scope.
-	void SetContactListener(b2ContactListener* listener);
+    /// Register a contact event listener. The listener is owned by you and must
+    /// remain in scope.
+    void SetContactListener( b2ContactListener* listener );
 
-	/// Register a routine for debug drawing. The debug draw functions are called
-	/// inside with b2World::DebugDraw method. The debug draw object is owned
-	/// by you and must remain in scope.
-	void SetDebugDraw(b2Draw* debugDraw);
+    /// Register a routine for debug drawing. The debug draw functions are called
+    /// inside with b2World::DebugDraw method. The debug draw object is owned
+    /// by you and must remain in scope.
+    void SetDebugDraw( b2Draw* debugDraw );
 
-	/// Create a rigid body given a definition. No reference to the definition
-	/// is retained.
-	/// @warning This function is locked during callbacks.
-	b2Body* CreateBody(const b2BodyDef* def);
+    /// Create a rigid body given a definition. No reference to the definition
+    /// is retained.
+    /// @warning This function is locked during callbacks.
+    b2Body* CreateBody( const b2BodyDef* def );
 
-	/// Destroy a rigid body given a definition. No reference to the definition
-	/// is retained. This function is locked during callbacks.
-	/// @warning This automatically deletes all associated shapes and joints.
-	/// @warning This function is locked during callbacks.
-	void DestroyBody(b2Body* body);
+    /// Destroy a rigid body given a definition. No reference to the definition
+    /// is retained. This function is locked during callbacks.
+    /// @warning This automatically deletes all associated shapes and joints.
+    /// @warning This function is locked during callbacks.
+    void DestroyBody( b2Body* body );
 
-	/// Create a joint to constrain bodies together. No reference to the definition
-	/// is retained. This may cause the connected bodies to cease colliding.
-	/// @warning This function is locked during callbacks.
-	b2Joint* CreateJoint(const b2JointDef* def);
+    /// Create a joint to constrain bodies together. No reference to the definition
+    /// is retained. This may cause the connected bodies to cease colliding.
+    /// @warning This function is locked during callbacks.
+    b2Joint* CreateJoint( const b2JointDef* def );
 
-	/// Destroy a joint. This may cause the connected bodies to begin colliding.
-	/// @warning This function is locked during callbacks.
-	void DestroyJoint(b2Joint* joint);
+    /// Destroy a joint. This may cause the connected bodies to begin colliding.
+    /// @warning This function is locked during callbacks.
+    void DestroyJoint( b2Joint* joint );
 
-	/// Take a time step. This performs collision detection, integration,
-	/// and constraint solution.
-	/// @param timeStep the amount of time to simulate, this should not vary.
-	/// @param velocityIterations for the velocity constraint solver.
-	/// @param positionIterations for the position constraint solver.
-	void Step(	float timeStep,
-				int32 velocityIterations,
-				int32 positionIterations);
+    /// Create a particle system given a definition. No reference to the
+    /// definition is retained.
+    /// @warning This function is locked during callbacks.
+    b2ParticleSystem* CreateParticleSystem( const b2ParticleSystemDef* def );
 
-	/// Manually clear the force buffer on all bodies. By default, forces are cleared automatically
-	/// after each call to Step. The default behavior is modified by calling SetAutoClearForces.
-	/// The purpose of this function is to support sub-stepping. Sub-stepping is often used to maintain
-	/// a fixed sized time step under a variable frame-rate.
-	/// When you perform sub-stepping you will disable auto clearing of forces and instead call
-	/// ClearForces after all sub-steps are complete in one pass of your game loop.
-	/// @see SetAutoClearForces
-	void ClearForces();
+    /// Destroy a particle system.
+    /// @warning This function is locked during callbacks.
+    void DestroyParticleSystem( b2ParticleSystem* p );
 
-	/// Call this to draw shapes and other debug draw data. This is intentionally non-const.
-	void DebugDraw();
+    /// Take a time step. This performs collision detection, integration,
+    /// and constraint solution.
+    /// @param timeStep the amount of time to simulate, this should not vary.
+    /// @param velocityIterations for the velocity constraint solver.
+    /// @param positionIterations for the position constraint solver.
+    /// @param particleIterations for the particle simulation.
+    void Step( float timeStep,
+        int32 velocityIterations,
+        int32 positionIterations,
+        int32 particleIterations );
 
-	/// Query the world for all fixtures that potentially overlap the
-	/// provided AABB.
-	/// @param callback a user implemented callback class.
-	/// @param aabb the query box.
-	void QueryAABB(b2QueryCallback* callback, const b2AABB& aabb) const;
+    /// Take a time step. This performs collision detection, integration,
+    /// and constraint solution.
+    /// @param timeStep the amount of time to simulate, this should not vary.
+    /// @param velocityIterations for the velocity constraint solver.
+    /// @param positionIterations for the position constraint solver.
+    void Step( float timeStep,
+        int32 velocityIterations,
+        int32 positionIterations ) {
+      Step( timeStep, velocityIterations, positionIterations, 1 );
+    }
 
-	/// Ray-cast the world for all fixtures in the path of the ray. Your callback
-	/// controls whether you get the closest point, any point, or n-points.
-	/// The ray-cast ignores shapes that contain the starting point.
-	/// @param callback a user implemented callback class.
-	/// @param point1 the ray starting point
-	/// @param point2 the ray ending point
-	void RayCast(b2RayCastCallback* callback, const b2Vec2& point1, const b2Vec2& point2) const;
+    /// Recommend a value to be used in `Step` for `particleIterations`.
+    /// This calculation is necessarily a simplification and should only be
+    /// used as a starting point. Please see "Particle Iterations" in the
+    /// Programmer's Guide for details.
+    /// @param timeStep is the value to be passed into `Step`.
+    int CalculateReasonableParticleIterations( float timeStep ) const;
 
-	/// Get the world body list. With the returned body, use b2Body::GetNext to get
-	/// the next body in the world list. A nullptr body indicates the end of the list.
-	/// @return the head of the world body list.
-	b2Body* GetBodyList();
-	const b2Body* GetBodyList() const;
+    /// Manually clear the force buffer on all bodies. By default, forces are cleared automatically
+    /// after each call to Step. The default behavior is modified by calling SetAutoClearForces.
+    /// The purpose of this function is to support sub-stepping. Sub-stepping is often used to maintain
+    /// a fixed sized time step under a variable frame-rate.
+    /// When you perform sub-stepping you will disable auto clearing of forces and instead call
+    /// ClearForces after all sub-steps are complete in one pass of your game loop.
+    /// @see SetAutoClearForces
+    void ClearForces();
 
-	/// Get the world joint list. With the returned joint, use b2Joint::GetNext to get
-	/// the next joint in the world list. A nullptr joint indicates the end of the list.
-	/// @return the head of the world joint list.
-	b2Joint* GetJointList();
-	const b2Joint* GetJointList() const;
+    /// Call this to draw shapes and other debug draw data. This is intentionally non-const.
+    void DebugDraw();
 
-	/// Get the world contact list. With the returned contact, use b2Contact::GetNext to get
-	/// the next contact in the world list. A nullptr contact indicates the end of the list.
-	/// @return the head of the world contact list.
-	/// @warning contacts are created and destroyed in the middle of a time step.
-	/// Use b2ContactListener to avoid missing contacts.
-	b2Contact* GetContactList();
-	const b2Contact* GetContactList() const;
+    /// Query the world for all fixtures that potentially overlap the
+    /// provided AABB.
+    /// @param callback a user implemented callback class.
+    /// @param aabb the query box.
+    void QueryAABB( b2QueryCallback* callback, const b2AABB& aabb ) const;
 
-	/// Enable/disable sleep.
-	void SetAllowSleeping(bool flag);
-	bool GetAllowSleeping() const { return m_allowSleep; }
+    /// Ray-cast the world for all fixtures in the path of the ray. Your callback
+    /// controls whether you get the closest point, any point, or n-points.
+    /// The ray-cast ignores shapes that contain the starting point.
+    /// @param callback a user implemented callback class.
+    /// @param point1 the ray starting point
+    /// @param point2 the ray ending point
+    void RayCast( b2RayCastCallback* callback, const b2Vec2& point1, const b2Vec2& point2 ) const;
 
-	/// Enable/disable warm starting. For testing.
-	void SetWarmStarting(bool flag) { m_warmStarting = flag; }
-	bool GetWarmStarting() const { return m_warmStarting; }
+    /// Get the world body list. With the returned body, use b2Body::GetNext to get
+    /// the next body in the world list. A nullptr body indicates the end of the list.
+    /// @return the head of the world body list.
+    b2Body* GetBodyList();
+    const b2Body* GetBodyList() const;
 
-	/// Enable/disable continuous physics. For testing.
-	void SetContinuousPhysics(bool flag) { m_continuousPhysics = flag; }
-	bool GetContinuousPhysics() const { return m_continuousPhysics; }
+    /// Get the world joint list. With the returned joint, use b2Joint::GetNext to get
+    /// the next joint in the world list. A nullptr joint indicates the end of the list.
+    /// @return the head of the world joint list.
+    b2Joint* GetJointList();
+    const b2Joint* GetJointList() const;
 
-	/// Enable/disable single stepped continuous physics. For testing.
-	void SetSubStepping(bool flag) { m_subStepping = flag; }
-	bool GetSubStepping() const { return m_subStepping; }
+    /// Get the world particle-system list. With the returned body, use
+    /// b2ParticleSystem::GetNext to get the next particle-system in the world
+    /// list. A NULL particle-system indicates the end of the list.
+    /// @return the head of the world particle-system list.
+    b2ParticleSystem* GetParticleSystemList();
+    const b2ParticleSystem* GetParticleSystemList() const;
 
-	/// Get the number of broad-phase proxies.
-	int32 GetProxyCount() const;
+    /// Get the world contact list. With the returned contact, use b2Contact::GetNext to get
+    /// the next contact in the world list. A nullptr contact indicates the end of the list.
+    /// @return the head of the world contact list.
+    /// @warning contacts are created and destroyed in the middle of a time step.
+    /// Use b2ContactListener to avoid missing contacts.
+    b2Contact* GetContactList();
+    const b2Contact* GetContactList() const;
 
-	/// Get the number of bodies.
-	int32 GetBodyCount() const;
+    /// Enable/disable sleep.
+    void SetAllowSleeping( bool flag );
 
-	/// Get the number of joints.
-	int32 GetJointCount() const;
+    bool GetAllowSleeping() const { return m_allowSleep; }
 
-	/// Get the number of contacts (each may have 0 or more contact points).
-	int32 GetContactCount() const;
+    /// Enable/disable warm starting. For testing.
+    void SetWarmStarting( bool flag ) { m_warmStarting = flag; }
 
-	/// Get the height of the dynamic tree.
-	int32 GetTreeHeight() const;
+    bool GetWarmStarting() const { return m_warmStarting; }
 
-	/// Get the balance of the dynamic tree.
-	int32 GetTreeBalance() const;
+    /// Enable/disable continuous physics. For testing.
+    void SetContinuousPhysics( bool flag ) { m_continuousPhysics = flag; }
 
-	/// Get the quality metric of the dynamic tree. The smaller the better.
-	/// The minimum is 1.
-	float GetTreeQuality() const;
+    bool GetContinuousPhysics() const { return m_continuousPhysics; }
 
-	/// Change the global gravity vector.
-	void SetGravity(const b2Vec2& gravity);
+    /// Enable/disable single stepped continuous physics. For testing.
+    void SetSubStepping( bool flag ) { m_subStepping = flag; }
 
-	/// Get the global gravity vector.
-	b2Vec2 GetGravity() const;
+    bool GetSubStepping() const { return m_subStepping; }
 
-	/// Is the world locked (in the middle of a time step).
-	bool IsLocked() const;
+    /// Get the number of broad-phase proxies.
+    int32 GetProxyCount() const;
 
-	/// Set flag to control automatic clearing of forces after each time step.
-	void SetAutoClearForces(bool flag);
+    /// Get the number of bodies.
+    int32 GetBodyCount() const;
 
-	/// Get the flag that controls automatic clearing of forces after each time step.
-	bool GetAutoClearForces() const;
+    /// Get the number of joints.
+    int32 GetJointCount() const;
 
-	/// Shift the world origin. Useful for large worlds.
-	/// The body shift formula is: position -= newOrigin
-	/// @param newOrigin the new origin with respect to the old origin
-	void ShiftOrigin(const b2Vec2& newOrigin);
+    /// Get the number of contacts (each may have 0 or more contact points).
+    int32 GetContactCount() const;
 
-	/// Get the contact manager for testing.
-	const b2ContactManager& GetContactManager() const;
+    /// Get the height of the dynamic tree.
+    int32 GetTreeHeight() const;
 
-	/// Get the current profile.
-	const b2Profile& GetProfile() const;
+    /// Get the balance of the dynamic tree.
+    int32 GetTreeBalance() const;
 
-	/// Dump the world into the log file.
-	/// @warning this should be called outside of a time step.
-	void Dump();
+    /// Get the quality metric of the dynamic tree. The smaller the better.
+    /// The minimum is 1.
+    float GetTreeQuality() const;
 
-private:
+    /// Change the global gravity vector.
+    void SetGravity( const b2Vec2& gravity );
 
-	friend class b2Body;
-	friend class b2Fixture;
-	friend class b2ContactManager;
-	friend class b2Controller;
+    /// Get the global gravity vector.
+    b2Vec2 GetGravity() const;
 
-	b2World(const b2World&) = delete;
-	void operator=(const b2World&) = delete;
+    /// Is the world locked (in the middle of a time step).
+    bool IsLocked() const;
 
-	void Solve(const b2TimeStep& step);
-	void SolveTOI(const b2TimeStep& step);
+    /// Set flag to control automatic clearing of forces after each time step.
+    void SetAutoClearForces( bool flag );
 
-	void DrawShape(b2Fixture* shape, const b2Transform& xf, const b2Color& color);
+    /// Get the flag that controls automatic clearing of forces after each time step.
+    bool GetAutoClearForces() const;
 
-	b2BlockAllocator m_blockAllocator;
-	b2StackAllocator m_stackAllocator;
+    /// Shift the world origin. Useful for large worlds.
+    /// The body shift formula is: position -= newOrigin
+    /// @param newOrigin the new origin with respect to the old origin
+    void ShiftOrigin( const b2Vec2& newOrigin );
 
-	b2ContactManager m_contactManager;
+    /// Get the contact manager for testing.
+    const b2ContactManager& GetContactManager() const;
 
-	b2Body* m_bodyList;
-	b2Joint* m_jointList;
+    /// Get the current profile.
+    const b2Profile& GetProfile() const;
 
-	int32 m_bodyCount;
-	int32 m_jointCount;
+    /// Dump the world into the log file.
+    /// @warning this should be called outside of a time step.
+    void Dump();
 
-	b2Vec2 m_gravity;
-	bool m_allowSleep;
+    b2BlockAllocator m_blockAllocator;
+    b2StackAllocator m_stackAllocator;
+    b2DestructionListener* m_destructionListener;
+    b2ContactManager m_contactManager;
 
-	b2DestructionListener* m_destructionListener;
-	b2Draw* m_debugDraw;
+  private:
 
-	// This is used to compute the time step ratio to
-	// support a variable time step.
-	float m_inv_dt0;
+    friend class b2Body;
+    friend class b2Fixture;
+    friend class b2ContactManager;
+    friend class b2Controller;
+    friend class b2ParticleSystem;
 
-	bool m_newContacts;
-	bool m_locked;
-	bool m_clearForces;
+    b2World( const b2World& ) = delete;
+    void operator=( const b2World& ) = delete;
 
-	// These are for debugging the solver.
-	bool m_warmStarting;
-	bool m_continuousPhysics;
-	bool m_subStepping;
+    void Solve( const b2TimeStep& step );
+    void SolveTOI( const b2TimeStep& step );
 
-	bool m_stepComplete;
+    void DrawJoint( b2Joint* joint );
+    void DrawShape( b2Fixture* shape, const b2Transform& xf, const b2Color& color );
+    void DrawParticleSystem( const b2ParticleSystem& system );
 
-	b2Profile m_profile;
+    b2Body* m_bodyList;
+    b2Joint* m_jointList;
+    b2ParticleSystem* m_particleSystemList;
+
+    int32 m_bodyCount;
+    int32 m_jointCount;
+
+    b2Vec2 m_gravity;
+    bool m_allowSleep;
+
+    b2Draw* m_debugDraw;
+
+    // This is used to compute the time step ratio to
+    // support a variable time step.
+    float m_inv_dt0;
+
+    bool m_newContacts;
+    bool m_locked;
+    bool m_clearForces;
+
+    // These are for debugging the solver.
+    bool m_warmStarting;
+    bool m_continuousPhysics;
+    bool m_subStepping;
+
+    bool m_stepComplete;
+
+    b2Profile m_profile;
 };
 
-inline b2Body* b2World::GetBodyList()
-{
-	return m_bodyList;
+inline b2Body* b2World::GetBodyList() {
+  return m_bodyList;
 }
 
-inline const b2Body* b2World::GetBodyList() const
-{
-	return m_bodyList;
+inline const b2Body* b2World::GetBodyList() const {
+  return m_bodyList;
 }
 
-inline b2Joint* b2World::GetJointList()
-{
-	return m_jointList;
+inline b2Joint* b2World::GetJointList() {
+  return m_jointList;
 }
 
-inline const b2Joint* b2World::GetJointList() const
-{
-	return m_jointList;
+inline const b2Joint* b2World::GetJointList() const {
+  return m_jointList;
 }
 
-inline b2Contact* b2World::GetContactList()
-{
-	return m_contactManager.m_contactList;
+inline b2ParticleSystem* b2World::GetParticleSystemList() {
+  return m_particleSystemList;
 }
 
-inline const b2Contact* b2World::GetContactList() const
-{
-	return m_contactManager.m_contactList;
+inline const b2ParticleSystem* b2World::GetParticleSystemList() const {
+  return m_particleSystemList;
 }
 
-inline int32 b2World::GetBodyCount() const
-{
-	return m_bodyCount;
+inline b2Contact* b2World::GetContactList() {
+  return m_contactManager.m_contactList;
 }
 
-inline int32 b2World::GetJointCount() const
-{
-	return m_jointCount;
+inline const b2Contact* b2World::GetContactList() const {
+  return m_contactManager.m_contactList;
 }
 
-inline int32 b2World::GetContactCount() const
-{
-	return m_contactManager.m_contactCount;
+inline int32 b2World::GetBodyCount() const {
+  return m_bodyCount;
 }
 
-inline void b2World::SetGravity(const b2Vec2& gravity)
-{
-	m_gravity = gravity;
+inline int32 b2World::GetJointCount() const {
+  return m_jointCount;
 }
 
-inline b2Vec2 b2World::GetGravity() const
-{
-	return m_gravity;
+inline int32 b2World::GetContactCount() const {
+  return m_contactManager.m_contactCount;
 }
 
-inline bool b2World::IsLocked() const
-{
-	return m_locked;
+inline void b2World::SetGravity( const b2Vec2& gravity ) {
+  m_gravity = gravity;
 }
 
-inline void b2World::SetAutoClearForces(bool flag)
-{
-	m_clearForces = flag;
+inline b2Vec2 b2World::GetGravity() const {
+  return m_gravity;
+}
+
+inline bool b2World::IsLocked() const {
+  return m_locked;
+}
+
+inline void b2World::SetAutoClearForces( bool flag ) {
+  m_clearForces = flag;
 }
 
 /// Get the flag that controls automatic clearing of forces after each time step.
-inline bool b2World::GetAutoClearForces() const
-{
-	return m_clearForces;
+inline bool b2World::GetAutoClearForces() const {
+  return m_clearForces;
 }
 
-inline const b2ContactManager& b2World::GetContactManager() const
-{
-	return m_contactManager;
+inline const b2ContactManager& b2World::GetContactManager() const {
+  return m_contactManager;
 }
 
-inline const b2Profile& b2World::GetProfile() const
-{
-	return m_profile;
+inline const b2Profile& b2World::GetProfile() const {
+  return m_profile;
 }
 
 #endif

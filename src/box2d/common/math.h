@@ -34,6 +34,23 @@ inline bool b2IsValid(float x)
 	return isfinite(x);
 }
 
+/// This is a approximate yet fast inverse square-root.
+inline float b2InvSqrt(float x)
+{
+	union
+	{
+		float x;
+		int32 i;
+	} convert;
+
+	convert.x = x;
+	float xhalf = 0.5f * x;
+	convert.i = 0x5f3759df - (convert.i >> 1);
+	x = convert.x;
+	x = x * (1.5f - xhalf * x * x);
+	return x;
+}
+
 #define	b2Sqrt(x)	sqrtf(x)
 #define	b2Atan2(y, x)	atan2f(y, x)
 
@@ -128,6 +145,30 @@ struct B2_API b2Vec2
 	float x, y;
 };
 
+/// Add a float to a vector.
+inline b2Vec2 operator + (const b2Vec2& v, float f)
+{
+	return b2Vec2(v.x + f, v.y + f);
+}
+
+/// Substract a float from a vector.
+inline b2Vec2 operator - (const b2Vec2& v, float f)
+{
+	return b2Vec2(v.x - f, v.y - f);
+}
+
+/// Multiply a float with a vector.
+inline b2Vec2 operator * (const b2Vec2& v, float f)
+{
+	return b2Vec2(v.x * f, v.y * f);
+}
+
+/// Divide a vector by a float.
+inline b2Vec2 operator / (const b2Vec2& v, float f)
+{
+	return b2Vec2(v.x / f, v.y / f);
+}
+
 /// A 2D column vector with 3 elements.
 struct B2_API b2Vec3
 {
@@ -162,6 +203,28 @@ struct B2_API b2Vec3
 	void operator *= (float s)
 	{
 		x *= s; y *= s; z *= s;
+	}
+
+			/// Get the length of this vector (the norm).
+	float Length() const
+	{
+		return b2Sqrt(x * x + y * y + z * z);
+	}
+
+	/// Convert this vector into a unit vector. Returns the length.
+	float Normalize()
+	{
+		float length = Length();
+		if (length < b2_epsilon)
+		{
+			return 0.0f;
+		}
+		float invLength = 1.0f / length;
+		x *= invLength;
+		y *= invLength;
+		z *= invLength;
+
+		return length;
 	}
 
 	float x, y, z;

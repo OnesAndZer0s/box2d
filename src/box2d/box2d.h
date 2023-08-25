@@ -25,25 +25,19 @@
 
 // These include files constitute the main Box2D API
 
-#include "common/settings.h"
-#include "common/draw.h"
-#include "common/timer.h"
-
+#include "collision/broad_phase.h"
+#include "collision/dynamic_tree.h"
 #include "collision/shapes/chain_shape.h"
 #include "collision/shapes/circle_shape.h"
 #include "collision/shapes/edge_shape.h"
 #include "collision/shapes/polygon_shape.h"
-
-#include "collision/broad_phase.h"
-#include "collision/dynamic_tree.h"
-
+#include "common/draw.h"
+#include "common/settings.h"
+#include "common/time_step.h"
+#include "common/timer.h"
 #include "dynamics/body.h"
 #include "dynamics/contact/contact.h"
 #include "dynamics/fixture.h"
-#include "common/time_step.h"
-#include "dynamics/world.h"
-#include "dynamics/world_callbacks.h"
-
 #include "dynamics/joint/distance_joint.h"
 #include "dynamics/joint/friction_joint.h"
 #include "dynamics/joint/gear_joint.h"
@@ -54,5 +48,13 @@
 #include "dynamics/joint/revolute_joint.h"
 #include "dynamics/joint/weld_joint.h"
 #include "dynamics/joint/wheel_joint.h"
+#include "dynamics/world.h"
+#include "dynamics/world_callbacks.h"
+#include "particle/particle.h"
+#include "particle/particle_assembly.h"
+#include "particle/particle_group.h"
+#include "particle/particle_system.h"
+#include "particle/stack_queue.h"
+#include "particle/voronoi_diagram.h"
 
 #endif

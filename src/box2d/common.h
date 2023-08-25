@@ -40,6 +40,16 @@
 #define	b2_epsilon		FLT_EPSILON
 #define b2_pi			3.14159265359f
 
+
+#if !defined(b2Inline)
+#if defined(__GNUC__)
+#define b2Inline __attribute__((always_inline))
+#else
+#define b2Inline inline
+#endif // defined(__GNUC__)
+#endif // !defined(b2Inline)
+
+
 /// @file
 /// Global tuning constants based on meters-kilograms-seconds (MKS) units.
 ///
@@ -105,6 +115,46 @@
 /// to overshoot.
 #define b2_baumgarte				0.2f
 #define b2_toiBaumgarte				0.75f
+
+
+// Particle
+
+/// NEON SIMD requires 16-bit particle indices
+#if !defined(B2_USE_16_BIT_PARTICLE_INDICES) && defined(LIQUIDFUN_SIMD_NEON)
+#define B2_USE_16_BIT_PARTICLE_INDICES
+#endif
+
+/// A symbolic constant that stands for particle allocation error.
+#define b2_invalidParticleIndex		(-1)
+
+#ifdef B2_USE_16_BIT_PARTICLE_INDICES
+#define b2_maxParticleIndex			0x7FFF
+#else
+#define b2_maxParticleIndex			0x7FFFFFFF
+#endif
+
+/// The default distance between particles, multiplied by the particle diameter.
+#define b2_particleStride			0.75f
+
+/// The minimum particle weight that produces pressure.
+#define b2_minParticleWeight			1.0f
+
+/// The upper limit for particle pressure.
+#define b2_maxParticlePressure		0.25f
+
+/// The upper limit for force between particles.
+#define b2_maxParticleForce		0.5f
+
+/// The maximum distance between particles in a triad, multiplied by the
+/// particle diameter.
+#define b2_maxTriadDistance			2
+#define b2_maxTriadDistanceSquared		(b2_maxTriadDistance * b2_maxTriadDistance)
+
+/// The initial size of particle data buffers.
+#define b2_minParticleSystemBufferCapacity	256
+
+/// The time into the future that collisions against barrier particles will be detected.
+#define b2_barrierCollisionTime 2.5f
 
 
 // Sleep

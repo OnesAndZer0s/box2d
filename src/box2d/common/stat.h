@@ -15,22 +15,43 @@
 * misrepresented as being the original software.
 * 3. This notice may not be removed or altered from any source distribution.
 */
-#include "particle_assembly.h"
-#include "particle_system.h"
+#ifndef B2_STAT
+#define B2_STAT
 
-extern "C" {
+#include "settings.h"
 
-// Helper function, called from assembly routine.
-void GrowParticleContactBuffer(
-	b2GrowableBuffer<b2ParticleContact>& contacts)
+/// Calculates min/max/mean of a set of samples
+class b2Stat
 {
-	// Set contacts.count = capacity instead of count because there are
-	// items past the end of the array waiting to be post-processed.
-	// We must maintain the entire contacts array.
-	// TODO: It would be better to have the items awaiting post-processing
-	// in their own array on the stack.
-	contacts.SetCount(contacts.GetCapacity());
-	contacts.Grow();
-}
+public:
+	b2Stat();
 
-} // extern "C"
+	/// Record a sample
+	void Record( float t );
+
+	/// Returns the number of recorded samples
+	int GetCount() const;
+
+	/// Returns the mean of all recorded samples,
+	/// Returns 0 if there are no recorded samples
+	float GetMean() const;
+
+	/// Returns the min of all recorded samples,
+	/// FLT_MAX if there are no recorded samples
+	float GetMin() const;
+
+	/// Returns the max of all recorded samples,
+	/// -FLT_MAX if there are no recorded samples
+	float GetMax() const;
+
+	/// Erase all recorded samples
+	void Clear();
+private:
+
+	int m_count;
+	double m_total;
+	float m_min;
+	float m_max;
+};
+
+#endif

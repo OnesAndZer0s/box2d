@@ -10,8 +10,12 @@ set (TESTBED_SOURCE_FILES
 	settings.cpp
 	test.cpp
 	test.h
+	particle_parameter.cpp
+	particle_parameter.h
+	particle_emitter.h
 	tests/benchmark_boxes.cpp
 	tests/add_pair.cpp
+	tests/anti_pointy.cpp
 	tests/apply_force.cpp
 	tests/body_types.cpp
 	tests/box_stack.cpp
@@ -31,67 +35,66 @@ set (TESTBED_SOURCE_FILES
 	tests/continuous_test.cpp
 	tests/convex_hull.cpp
 	tests/conveyor_belt.cpp
+	tests/corner_case.cpp
+	tests/dam_break.cpp
 	tests/distance_joint.cpp
 	tests/distance_test.cpp
 	tests/dominos.cpp
+	tests/drawing_particles.cpp
 	tests/dump_loader.cpp
 	tests/dynamic_tree.cpp
 	tests/edge_shapes.cpp
 	tests/edge_test.cpp
+	tests/elastic_particles.cpp
+	tests/faucet.cpp
+	tests/fracker.cpp
 	tests/friction.cpp
 	tests/gear_joint.cpp
 	tests/heavy1.cpp
 	tests/heavy2.cpp
+	tests/impulse.cpp
+	tests/liquid_timer.cpp
+	tests/maxwell.cpp
 	tests/mobile_balanced.cpp
 	tests/mobile_unbalanced.cpp
+	tests/multiple_particle_system.cpp
+	tests/one_sided_platform.cpp
+	tests/particle_collision_filter.cpp
+	tests/particles_surface_tension.cpp
+	tests/particles.cpp
 	tests/motor_joint.cpp
 	tests/pinball.cpp
 	tests/platformer.cpp
+	tests/pointy.cpp
 	tests/polygon_collision.cpp
 	tests/polygon_shapes.cpp
 	tests/prismatic_joint.cpp
 	tests/pulley_joint.cpp
 	tests/pyramid.cpp
+	tests/ramp.cpp
 	tests/ray_cast.cpp
 	tests/restitution.cpp
 	tests/revolute_joint.cpp
+	tests/rigid_particle.cpp
 	tests/rope.cpp
+	tests/sandbox.cpp
 	tests/sensor.cpp
 	tests/shape_cast.cpp
 	tests/shape_editing.cpp
 	tests/skier.cpp
 	tests/slider_crank_1.cpp
 	tests/slider_crank_2.cpp
+	tests/soup_stirrer.cpp
+	tests/soup.cpp
+	tests/sparky.cpp
 	tests/theo_jansen.cpp
 	tests/tiles.cpp
 	tests/time_of_impact.cpp
 	tests/tumbler.cpp
+	tests/wave_machine.cpp
 	tests/web.cpp
 	tests/wheel_joint.cpp
 	tests/wrecking_ball.cpp
-	tests/anti_pointy.cpp
-	tests/corner_case.cpp
-	tests/dam_break.cpp
-	tests/drawing_particles.cpp
-	tests/elastic_particles.cpp
-	tests/faucet.cpp
-	tests/fracker.cpp
-	tests/impulse.cpp
-	tests/liquid_timer.cpp
-	tests/maxwell.cpp
-	tests/multiple_particle_system.cpp
-	tests/one_sided_platform.cpp
-	tests/particle_collision_filter.cpp
-	tests/particles_surface_tension.cpp
-	tests/particles.cpp
-	tests/pointy.cpp
-	tests/ramp.cpp
-	tests/rigid_particle.cpp
-	tests/sandbox.cpp
-	tests/soup_stirrer.cpp
-	tests/sparky.cpp
-	tests/soup.cpp
-	tests/wave_machine.cpp
 )
 
 add_executable(testbed ${TESTBED_SOURCE_FILES})
